@@ -35,8 +35,6 @@ annotate Attachments with @UI: {
         {Value: createdBy},
         {Value: note}
     ]
-} {
-    modifiedAt @(odata.etag: null);
 }
 
 entity Authors : cuid, managed {
