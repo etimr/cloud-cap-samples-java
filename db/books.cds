@@ -35,7 +35,7 @@ annotate Attachments with @UI: {
         {Value: createdBy},
         {Value: note}
     ]
-}
+};
 
 entity Authors : cuid, managed {
     @assert.format : '^\p{Lu}.*' // assert that name starts with a capital letter
